@@ -1,0 +1,15 @@
+/* Components import
+
+   This file is used to import all custom components created for this project.
+   Each new componenet should be styled in a unique SASS file following the
+   given naming convention.
+
+   _cp-component-context.scss
+
+   e.g.
+
+   _cp-navigation-main.scss
+******************************************************************************/
+
+@import 'cp-navigation-main';
+@import 'cp-link-skip';

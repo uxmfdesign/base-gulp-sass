@@ -1,0 +1,20 @@
+/* Contains styles requried for the skip link component.
+******************************************************************************/
+
+.link-skip {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+
+  &:hover,
+  &:focus {
+    left: 42px;
+    top: 0;
+
+    width: auto;
+    height: auto;
+  }
+}

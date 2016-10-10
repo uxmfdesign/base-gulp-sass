@@ -1,0 +1,116 @@
+/* Contains the base styles for the project. This should be limited to the
+   creatign styles for generic baseline elements such as:
+******************************************************************************/
+
+/* setup the body so it applies the base fonts size and font family */
+body {
+  font-size: $font-base-size;
+  font-family: $font-body-family;
+
+  text-align: left;
+}
+
+/*************/
+/* structure */
+/*************/
+
+body > header {
+  max-width: 60%;
+  margin: 0 20%;
+
+  text-align: center;
+}
+
+section {
+  max-width: 60%;
+  margin: 0 20%;
+}
+
+main {
+
+}
+
+article {
+
+}
+
+/**************************/
+/* Typography and content */
+/**************************/
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-display-family;
+}
+h1 {
+  @include set-type(48, 200, 48);
+  padding: 0.5em 0 1em;
+}
+h2 {
+  @include set-type(36, 700, 36);
+  padding: 0.5em 0 1em;
+}
+h3 {
+  @include set-type(24, 700, 24);
+  padding: 0.5em 0 1em;
+}
+h4 {
+  @include set-type(21, 700, 21);
+  padding: 0.5em 0 1em;
+}
+h5 {
+  @include set-type(18, 700, 18);
+  padding: 0.5em 0 1em;
+}
+h6 {
+  @include set-type(18, 400, 18);
+  padding: 0.5em 0 1em;
+}
+
+/* Body content */
+p {
+  @include set-type(18, 400, 24);
+
+  padding: 0.5em 0 1em;
+}
+
+code {
+  font-family: $font-mono-family;
+  color: $color-highlight-lt;
+
+  background: $color-background-dk;
+
+  display: inline-block;
+
+  padding: 0 0.25em;
+}
+
+pre {
+  font-family: $font-mono-family;
+  color: $color-highlight-lt;
+
+  background: $color-background-dk;
+}
+
+em {
+  font-weight: 700;
+}
+
+/* Links */
+a {
+  color: $color-link;
+  text-decoration: none;
+  padding-bottom: 0.125em;
+
+  border-bottom: 1px solid;
+
+  &:hover,
+  &:focus {
+    color: $color-link-hover;
+  }
+}

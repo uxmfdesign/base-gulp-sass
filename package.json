@@ -1,0 +1,21 @@
+{
+  "name": "mfdesign-basic",
+  "version": "1.0.0",
+  "description": "A single page site project for building a new theme.",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Freeman",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.16.1",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "pump": "^1.0.1"
+  }
+}

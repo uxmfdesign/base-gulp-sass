@@ -1,0 +1,20 @@
+/* Global mixins
+
+   Contains project mixins. The sample mixin below can be used to style type
+   using standard typographic notations.
+******************************************************************************/
+
+/*
+  sets font-size, font-weight, and line-height.
+  Note: use real weights (300, 400, 700, 900)
+*/
+@mixin set-type($theSize, $theWeight, $theLeading) {
+	font-size: #{$theSize / $font-base-size}em;
+  /* calculate the correct font size in em */
+
+  font-weight: $theWeight;
+  /* set the font weight */
+
+  line-height: #{$theLeading / $theSize}em;
+  /* calculate the leading based on the current font size and indicate in ems */
+}

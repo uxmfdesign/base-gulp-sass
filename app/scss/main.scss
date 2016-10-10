@@ -1,0 +1,15 @@
+/* Import all the global sass partials
+******************************************************************************/
+
+
+@import 'global-reset';
+@import 'global-vars';
+@import 'global-mixins';
+@import 'global-fonts';
+@import 'global-base';
+@import 'global-components';
+@import 'global-helpers';
+
+/* The order of the above imports is very important. For more information about
+   what is contained in each partial open the referenced file.
+*/

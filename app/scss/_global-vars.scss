@@ -1,0 +1,53 @@
+/* Global variables used for the project.
+******************************************************************************/
+
+/**********/
+/* Colors */
+/**********/
+
+/* Brand colors
+   use http://color.adobe.com to create your initial color palette. Then check
+   the palette and adjust using http://contrast-finder.tanaguru.com/.
+
+   The example palette below passes WCAG 2.0 AA but not AAA. You would need
+   to provide an alternate style sheet to meet the AAA standard.
+******************************************************************************/
+
+/* Note brand colors are set and then applied to the contextual names below. */
+$color-brand-1: #BF4C00; // RED
+$color-brand-2: #007F7F; // DARK TEAL
+$color-brand-3: #594724; // BROWN
+$color-brand-4: #00BFBF; // LIGHT TEAL
+$color-brand-5: #F2A818; // LIGHT ORANGE
+
+/* text colors */
+$color-text-dk: #000000;
+$color-text-lt: #ffffff;
+
+/* background colors */
+$color-background-lt: #ffffff;
+$color-background-dk: #000000;
+
+$color-paper: #ffffff;
+
+/* links */
+$color-link:       $color-brand-1;
+$color-link-hover: $color-brand-2;
+$color-link-visit: $color-brand-2;
+
+/* Highlights */
+$color-highlight-lt: $color-brand-5;
+
+
+
+
+/**************/
+/* Typography */
+/**************/
+
+$font-base-size: 16;
+
+/* font families */
+$font-body-family:    'Open Sans', sans-serif;
+$font-display-family: 'Open Sans', sans-serif;
+$font-mono-family:    'Roboto Mono', monospace;
