@@ -17,13 +17,13 @@ gulp.task('compress', function (cb) {
 });
 
 // Static Server + watching scss/html files
-gulp.task('serve', ['scss'], function() {
+gulp.task('serve', ['sass'], function() {
 
     browserSync.init({
         server: "./app"
     });
 
-    gulp.watch("app/scss/*.scss", ['scss']);
+    gulp.watch("app/scss/*.scss", ['sass']);
     gulp.watch("app/*.html").on('change', browserSync.reload);
 });
 
