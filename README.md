@@ -9,9 +9,10 @@
 ## Getting started
 
 ### Mac/ Linux/ Unix
+[Install gulp](http://gulpjs.com/)
 
 ### Windows
-[Reference](http://omcfarlane.co.uk/install-gulp-js-windows/)
+[Install gulp on windows](http://omcfarlane.co.uk/install-gulp-js-windows/)
 
 
 
