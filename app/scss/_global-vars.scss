@@ -14,11 +14,11 @@
 ******************************************************************************/
 
 /* Note brand colors are set and then applied to the contextual names below. */
-$color-brand-1: #BF4C00; // RED
-$color-brand-2: #007F7F; // DARK TEAL
-$color-brand-3: #594724; // BROWN
-$color-brand-4: #00BFBF; // LIGHT TEAL
-$color-brand-5: #F2A818; // LIGHT ORANGE
+$color-primary-1: #BF4C00; // RED
+$color-primary-2: #007F7F; // DARK TEAL
+$color-primary-3: #594724; // BROWN
+$color-primary-4: #00BFBF; // LIGHT TEAL
+$color-primary-5: #F2A818; // LIGHT ORANGE
 
 /* text colors */
 $color-text-dk: #000000;
@@ -31,12 +31,12 @@ $color-background-dk: #000000;
 $color-paper: #ffffff;
 
 /* links */
-$color-link:       $color-brand-1;
-$color-link-hover: $color-brand-2;
-$color-link-visit: $color-brand-2;
+$color-link:       $color-primary-1;
+$color-link-hover: $color-primary-2;
+$color-link-visit: $color-primary-2;
 
 /* Highlights */
-$color-highlight-lt: $color-brand-5;
+$color-highlight-lt: $color-primary-5;
 
 
 
